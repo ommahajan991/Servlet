@@ -21,6 +21,7 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter pw = resp.getWriter();
 		if (username.equals("admin") && password.equals("admin@123")) {
 			pw.print("<h1>Login Successfully !!!</h1>");
+			resp.sendRedirect("index.jsp");
 		} else {
 			pw.print("<h1>Login Failed !!!</h1>" + "<h1>Try Again</h1>");
 			RequestDispatcher dispatcher = req.getRequestDispatcher("login.html");
