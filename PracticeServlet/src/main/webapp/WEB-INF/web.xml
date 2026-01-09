@@ -19,6 +19,7 @@
 	</servlet-mapping> -->
 	
 	<welcome-file-list>
+		<welcome-file>calculate.html</welcome-file>
 		<welcome-file>HomePage.html</welcome-file>
 		<welcome-file>register.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
