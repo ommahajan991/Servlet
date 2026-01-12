@@ -25,6 +25,15 @@
 	</welcome-file-list>
 	
 	<context-param>
+		<param-name>username</param-name>
+		<param-value>admin</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>admin@123</param-value>
+	</context-param>
+	
+	<context-param>
 		<param-name>Company</param-name>
 		<param-value>MicroSoft</param-value>
 	</context-param>
